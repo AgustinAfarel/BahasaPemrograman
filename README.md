@@ -37,14 +37,9 @@ print("\n\nAssalamualaikum Wr.Wb")
 print(f"Let indtroduce my self. My name is {longname}, but you can call me {nickname}.My NPM is {NPM}. i was born in {bornplace} and I am {age} year old. I am very glad if you want to invite my house in {hometown}. so, don`t forget to call me before with the number {phone}")
 
 * Penjelasanya
+Variabel adalah sebuah wadah penyimpanan data pada program yang akan digunakan selama program itu berjalan. Yang berfungsi sebagai variable dalam source code.
 
-print("Please enter full name : ")
-
-* Source code diatas berfungsi untuk mencetak hasil / output berupa " Please enter your full name : ".
-
-fullname=input()
-
-Variabel adalah sebuah wadah penyimpanan data pada program yang akan digunakan selama program itu berjalan. Yang berfungsi sebagai variable dalam source code diatas adalah fullname .
+Fungsi print() seperti dijelaskan pada poin Output diatas Hasil dari source code
 
 Fungsi input() adalah untuk memasukkan nilai dari layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter (newline)
 
@@ -52,10 +47,15 @@ Fungsi huruf f pada perintah print(f"...") adalah fungsi print atau bisa memudah
 
 fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable
 
+fungsi \n pada source code diatas adalah untuk memberi baris baru / enter / (newline)
+
 * Untuk memasukkan perintah lain seperti Nickname, NPM, Place Of Birth, Date of Birth, Year of Birth, Phone Number, and Address mengikuti perintah yang sama seperti memasukkan fullname
 
-* Untuk menghitung rumus umur saya menggunakan variable DOB yaitu 2020 (Tahun Sekarang) dikurangi dengan Year of Birth, pada source code berikut :
+* Untuk menghitung rumus umur saya menggunakan variable DOB yaitu 2020 (Tahun Sekarang) dikurangi dengan Year of Birth.
 
- ![Gambar](Gambar1.PNG)
+Hasil Output Tersebet Seperti gambar dibawah ini
+![Gambar](Picture2/Gambar2.PNG)
+
+ 
 
 
