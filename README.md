@@ -58,6 +58,7 @@ Hasil Output Tersebet Seperti gambar dibawah ini
 ![gambar](Picture2/gambarr.PNG)
 
 * LAB 1
+
 <br>#Penggunaan End
 <br>print("A", end="")
 <br>print("B", end="")
