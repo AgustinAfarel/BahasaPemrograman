@@ -36,4 +36,17 @@ print("\n\nAssalamualaikum Wr.Wb")
  
 print(f"Let indtroduce my self. My name is {longname}, but you can call me {nickname}.My NPM is {NPM}. i was born in {bornplace} and I am {age} year old. I am very glad if you want to invite my house in {hometown}. so, don`t forget to call me before with the number {phone}")
 
+* Penjelasanya
+
+print("Please enter full name : ")
+
+Source code diatas berfungsi untuk mencetak hasil / output berupa " Please enter your full name : ".
+
+fullname=input()
+
+Variabel adalah sebuah wadah penyimpanan data pada program yang akan digunakan selama program itu berjalan. Yang berfungsi sebagai variable dalam source code diatas adalah fullname .
+
+Fungsi input() adalah untuk memasukkan nilai dari layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter (newline)
+
+
 
