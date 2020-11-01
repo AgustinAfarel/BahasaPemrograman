@@ -12,25 +12,25 @@ Matkul : Bahasa Pemrograman
 Tugas Pertemuan Ke 5
 
 print("Please enter full name : ")
-longname = input ()
+<br>:longname = input ()
 
 print ("Please insert your nickname :")
-nickname = input ()
+<br>nickname = input ()
 
 print("please enter yout NPM :")
-NPM = input()
+<br>NPM = input()
 
 print("Please insert your age :")
-age = int (input())
+<br>age = int (input())
 
 print("Please enter your Born Place :")
-bornplace = input()
+<br>:bornplace = input()
 
 print("Please enter your home addres :")
-hometown = input()
+<br>:hometown = input()
 
 print("Please enter your phone number :")
-phone = input()
+<br>:phone = input()
 
 print("\n\nAssalamualaikum Wr.Wb")
  
