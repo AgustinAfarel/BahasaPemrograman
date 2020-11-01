@@ -181,7 +181,7 @@ Konversi nilai variable
 <br>print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
 <br>print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 
-1[Gambar](Picture2/Gambar11.PNG)
+![Gambar](Picture2/Gambar11.PNG)
 
 Bagaimana cara memperbaiki error tersebut?
 Kita lihat pada baris ke 5 (di notifikasi terbaca bahwa error terletak pada baris ke 5), yaitu pada pemformatan .format() adalah interger, Sedangkan jika berupa string maka akan ada tanda petik dua ("..") pada pemformatan .format()
