@@ -56,6 +56,6 @@ fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable
 
 * Untuk menghitung rumus umur saya menggunakan variable DOB yaitu 2020 (Tahun Sekarang) dikurangi dengan Year of Birth, pada source code berikut :
 
-![Gambar](:\Praktikum\BahasaPemrogramanP6\BahasaPemrograman\Picture2.PNG)
+ ![Gambar](Gambar1.PNG)
 
 
