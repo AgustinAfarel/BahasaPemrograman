@@ -48,10 +48,14 @@ Variabel adalah sebuah wadah penyimpanan data pada program yang akan digunakan s
 
 Fungsi input() adalah untuk memasukkan nilai dari layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter (newline)
 
+Fungsi huruf f pada perintah print(f"...") adalah fungsi print atau bisa memudahkan programmer dalam mencetak statement dalam satu baris dibandingkan dengan metode yang lama yaitu memisahkan string dan variable dengan simbol koma ( , ) atau plus ( + )
+
+fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable
+
 * Untuk memasukkan perintah lain seperti Nickname, NPM, Place Of Birth, Date of Birth, Year of Birth, Phone Number, and Address mengikuti perintah yang sama seperti memasukkan fullname
 
 * Untuk menghitung rumus umur saya menggunakan variable DOB yaitu 2020 (Tahun Sekarang) dikurangi dengan Year of Birth, pada source code berikut :
 
-![Gambar](Picture2/Gambar1.PNG)
+![Gambar](:\Praktikum\BahasaPemrogramanP6\BahasaPemrograman\Picture2.PNG)
 
 
