@@ -11,7 +11,7 @@ Matkul : Bahasa Pemrograman
 
 Tugas Pertemuan Ke 5
 
-print("Please enter full name : ")
+print("Please enter full name : ")<br>:
 <br>:longname = input ()
 
 print ("Please insert your nickname :")
