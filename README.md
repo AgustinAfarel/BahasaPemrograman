@@ -58,23 +58,23 @@ Hasil Output Tersebet Seperti gambar dibawah ini
 ![Gambar](BahasaPemrograman/Gambarr.PNG)
 
 * LAB 1
-#Penggunaan End
-print("A", end="")
-print("B", end="")
-print("C", end="")
+<br>#Penggunaan End
+<br>print("A", end="")
+<br>print("B", end="")
+<br>print("C", end="")
 
-print()
-print("X")
-print("Y")
-print("Z")
+<br>print()
+<br>print("X")
+<br>print("Y")
+<br>print("Z")
 
-#Penggunaan Separator
-w,x,y,z=10,15,20,25
-print(w,x,y,z)
-print(w,x,y,z,sep=",")
-print(w,x,y,z,sep="")
-print(w,x,y,z,sep=":")
-print(w,x,y,z,sep="-----")
+<br>#Penggunaan Separator
+<br>w,x,y,z=10,15,20,25
+<br>print(w,x,y,z)
+<br>print(w,x,y,z,sep=",")
+<br>print(w,x,y,z,sep="")
+<br>print(w,x,y,z,sep=":")
+<br>print(w,x,y,z,sep="-----")
 
  
 Penggunaan END Penggunaan end digunakan untuk menambahkan karakter yang dicetak di akhir baris. Secara default penggunaan end adalah untuk ganti baris.
@@ -108,34 +108,34 @@ Hasil dari syntax berikut
 String Format
 String formatting atau pemformatan string memungkinkan kita menyuntikkan item kedalam string daripada kita mencoba menggabungkan string menggunakan koma atau string concatenation.
 
-#String Format 1
-print(0, 10**0)
-print(1, 10**1)
-print(2, 10**2)
-print(3, 10**3)
-print(4, 10**4)
-print(5, 10**5)
-print(6, 10**6)
-print(7, 10**7)
-print(8, 10**8)
-print(9, 10**9)
-print(10, 10**10)
+<br>#String Format 1
+<br>print(0, 10**0)
+<br>print(1, 10**1)
+<br>print(2, 10**2)
+<br>print(3, 10**3)
+<br>print(4, 10**4)
+<br>print(5, 10**5)
+<br>print(6, 10**6)
+<br>print(7, 10**7)
+<br>print(8, 10**8)
+<br>print(9, 10**9)
+<br>print(10, 10**10)
 
-print()
-print()
+<br>print()
+<br>print()
 
-#String Format 2
-print('{0:>3} {1:>16}'.format(0, 10**0))
-print('{0:>3} {1:>16}'.format(0, 10**1))
-print('{0:>3} {1:>16}'.format(0, 10**2))
-print('{0:>3} {1:>16}'.format(0, 10**3))
-print('{0:>3} {1:>16}'.format(0, 10**4))
-print('{0:>3} {1:>16}'.format(0, 10**5))
-print('{0:>3} {1:>16}'.format(0, 10**6))
-print('{0:>3} {1:>16}'.format(0, 10**7))
-print('{0:>3} {1:>16}'.format(0, 10**8))
-print('{0:>3} {1:>16}'.format(0, 10**9))
-print('{0:>3} {1:>16}'.format(0, 10**10))
+<br>#String Format 2
+<br>print('{0:>3} {1:>16}'.format(0, 10**0))
+<br>print('{0:>3} {1:>16}'.format(0, 10**1))
+<br>print('{0:>3} {1:>16}'.format(0, 10**2))
+<br>print('{0:>3} {1:>16}'.format(0, 10**3))
+<br>print('{0:>3} {1:>16}'.format(0, 10**4))
+<br>print('{0:>3} {1:>16}'.format(0, 10**5))
+<br>print('{0:>3} {1:>16}'.format(0, 10**6))
+<br>print('{0:>3} {1:>16}'.format(0, 10**7))
+<br>print('{0:>3} {1:>16}'.format(0, 10**8))
+<br>print('{0:>3} {1:>16}'.format(0, 10**9))
+<br>print('{0:>3} {1:>16}'.format(0, 10**10))
 
 String Format 1
 Pada syntax / source code string format 1 akan menampilkan output berupa 2 outputan.
@@ -161,16 +161,16 @@ Secara Default, .format() menggunakan rata teks ke kiri, angka ke kanan. Kita da
 
 Konversi nilai variable
 
-a=input("Masukkan Nilai A : ")
-b=input("Masukkan Nilai B : ")
-print("Variable A : ",a)
-print("Variable B : ",b)
-print("Hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+<br>a=input("Masukkan Nilai A : ")
+<br>b=input("Masukkan Nilai B : ")
+<br>print("Variable A : ",a)
+<br>print("Variable B : ",b)
+<br>print("Hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
 
 #Konversi nilai variable
-a=int(a)
-b=int(b)
-print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
-print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+<br>a=int(a)
+<br>b=int(b)
+<br>print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
+<br>print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 
 
