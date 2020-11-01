@@ -1,4 +1,12 @@
 # BahasaPemrograman
 Dibuat Untuk Memenuhi Tugas Bahasa Pemrograman Pertemuan ke 6
 
-d
+Nama   : Agustin Afarel
+
+NIM    : 312010081
+
+Kelas  :TI.20.B.1.
+
+Matkul : Bahasa Pemrograman
+
+
