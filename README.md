@@ -55,7 +55,7 @@ fungsi \n pada source code diatas adalah untuk memberi baris baru / enter / (new
 
 Hasil Output Tersebet Seperti gambar dibawah ini
 
->git pict (:/BahasaPemrograman/Gambarr.PNG)
+![gambar](:"/BahasaPemrograman/Gambarr.PNG")
 
 * LAB 1
 <br>#Penggunaan End
