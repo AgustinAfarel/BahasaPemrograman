@@ -57,6 +57,120 @@ Hasil Output Tersebet Seperti gambar dibawah ini
 
 ![Gambar](BahasaPemrograman/Gambarr.PNG)
 
+* LAB 1
+#Penggunaan End
+print("A", end="")
+print("B", end="")
+print("C", end="")
+
+print()
+print("X")
+print("Y")
+print("Z")
+
+#Penggunaan Separator
+w,x,y,z=10,15,20,25
+print(w,x,y,z)
+print(w,x,y,z,sep=",")
+print(w,x,y,z,sep="")
+print(w,x,y,z,sep=":")
+print(w,x,y,z,sep="-----")
+
  
+Penggunaan END Penggunaan end digunakan untuk menambahkan karakter yang dicetak di akhir baris. Secara default penggunaan end adalah untuk ganti baris.
+
+Penggunaan Separator Separator adalah pemisah yang berfungsi sebagai tanda pemisah antar objek yang dicetak. Defaultnya adalah tanda spasi.
+
+Pendeklarasian beberapa variable beserta nilainya
+
+w,x,y,z=10,15,20,25
+Menampilkan hasil dari variable tiap-tiap variable
+
+print(w,x,y,z)
+Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah , (koma)
+
+print(w,x,y,z,sep=",")
+Menampilkan hasil dari tiap-tiap variable tanpa menggunakan pemisah
+
+print(w,x,y,z,sep="")
+Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah : (titik dua)
+
+print(w,x,y,z,sep=":")
+Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah -----
+
+print(w,x,y,z,sep="-----")
+
+Hasil dari syntax berikut 
+![Gambar]()
+
+* LAB 1-2
+
+String Format
+String formatting atau pemformatan string memungkinkan kita menyuntikkan item kedalam string daripada kita mencoba menggabungkan string menggunakan koma atau string concatenation.
+
+#String Format 1
+print(0, 10**0)
+print(1, 10**1)
+print(2, 10**2)
+print(3, 10**3)
+print(4, 10**4)
+print(5, 10**5)
+print(6, 10**6)
+print(7, 10**7)
+print(8, 10**8)
+print(9, 10**9)
+print(10, 10**10)
+
+print()
+print()
+
+#String Format 2
+print('{0:>3} {1:>16}'.format(0, 10**0))
+print('{0:>3} {1:>16}'.format(0, 10**1))
+print('{0:>3} {1:>16}'.format(0, 10**2))
+print('{0:>3} {1:>16}'.format(0, 10**3))
+print('{0:>3} {1:>16}'.format(0, 10**4))
+print('{0:>3} {1:>16}'.format(0, 10**5))
+print('{0:>3} {1:>16}'.format(0, 10**6))
+print('{0:>3} {1:>16}'.format(0, 10**7))
+print('{0:>3} {1:>16}'.format(0, 10**8))
+print('{0:>3} {1:>16}'.format(0, 10**9))
+print('{0:>3} {1:>16}'.format(0, 10**10))
+
+String Format 1
+Pada syntax / source code string format 1 akan menampilkan output berupa 2 outputan.
+Yang pertama (sebelah kiri) akan menampilkan angka Urut dari angka 0 hingga angka 10, sedangkan untuk sebelah kanan akan menampilkan Operasi Aritmatika Pangkat.
+Dengan ketentuan sebagai berikut, operasi pangkat dengan angka kiri sebagai pokok (Rumus : ** [bintang dua] )
+Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10
+
+String Format 2
+Pada syntax atau source code string format 2 akan menampilkan output berupa 2 output'an juga (seperti String Format 1, yaitu kanan dan kiri)
+
+Alignment, padding, dan precesion dengan .format() dalam kurung kurawal kita dapat menetapkan panjang bidang, rata kanan/kiri, parameter pembulatan dan banyak lagi. Contoh lain seperti berikut :
+
+<br>print('{0:8} | {1:9}'.format('Buah','Jumlah'))
+<br>print('{0:8} | {1:9}'.format('Apel', 3.))
+<br>print('{0:8} | {1:9}'.format('Jeruk',10))
+
+Secara Default, .format() menggunakan rata teks ke kiri, angka ke kanan. Kita dapat menggunakan opsi opsional <, ^, atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan .format() sebagai berikut :
+
+<br>print('{:<30}{:^30}{:>30}'.format('Kiri','Tengah','Kanan'))
+<br>print('{:<30}{:^30}{:>30}'.format(12,34,56))
+
+*LAB 2
+
+Konversi nilai variable
+
+a=input("Masukkan Nilai A : ")
+b=input("Masukkan Nilai B : ")
+print("Variable A : ",a)
+print("Variable B : ",b)
+print("Hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#Konversi nilai variable
+a=int(a)
+b=int(b)
+print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 
 
