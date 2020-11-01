@@ -54,7 +54,8 @@ fungsi \n pada source code diatas adalah untuk memberi baris baru / enter / (new
 * Untuk menghitung rumus umur saya menggunakan variable DOB yaitu 2020 (Tahun Sekarang) dikurangi dengan Year of Birth.
 
 Hasil Output Tersebet Seperti gambar dibawah ini
-![Gambar](Picture2/Gambar2.PNG)
+
+![Gambar](BahasaPemrograman/Gambar2.PNG)
 
  
 
