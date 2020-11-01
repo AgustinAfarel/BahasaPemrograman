@@ -52,6 +52,6 @@ Fungsi input() adalah untuk memasukkan nilai dari layar console di command promp
 
 * Untuk menghitung rumus umur saya menggunakan variable DOB yaitu 2020 (Tahun Sekarang) dikurangi dengan Year of Birth, pada source code berikut :
 
-![Gambar](Gambar1.PNG)
+![Gambar](Picture2/Gambar1.PNG)
 
 
