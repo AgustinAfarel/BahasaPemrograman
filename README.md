@@ -40,7 +40,7 @@ print(f"Let indtroduce my self. My name is {longname}, but you can call me {nick
 
 print("Please enter full name : ")
 
-Source code diatas berfungsi untuk mencetak hasil / output berupa " Please enter your full name : ".
+* Source code diatas berfungsi untuk mencetak hasil / output berupa " Please enter your full name : ".
 
 fullname=input()
 
@@ -48,5 +48,10 @@ Variabel adalah sebuah wadah penyimpanan data pada program yang akan digunakan s
 
 Fungsi input() adalah untuk memasukkan nilai dari layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter (newline)
 
+* Untuk memasukkan perintah lain seperti Nickname, NPM, Place Of Birth, Date of Birth, Year of Birth, Phone Number, and Address mengikuti perintah yang sama seperti memasukkan fullname
+
+* Untuk menghitung rumus umur saya menggunakan variable DOB yaitu 2020 (Tahun Sekarang) dikurangi dengan Year of Birth, pada source code berikut :
+
+![Gambar](Gambar1.PNG)
 
 
