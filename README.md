@@ -181,4 +181,30 @@ Konversi nilai variable
 <br>print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
 <br>print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 
+1[Gambar](Picture2/Gambar11.PNG)
 
+Bagaimana cara memperbaiki error tersebut?
+Kita lihat pada baris ke 5 (di notifikasi terbaca bahwa error terletak pada baris ke 5), yaitu pada pemformatan .format() adalah interger, Sedangkan jika berupa string maka akan ada tanda petik dua ("..") pada pemformatan .format()
+Kita akan terfokus pada variable a dan b.
+Pada line 1 tertulis syntax : a=input("Masukkan Nilai A : ")
+Sedangkan pada line 2 tertulis sytax : b=input("Masukkan Nilai B : ")
+Untuk membuat inputan berupa interger/angka harus ditambahkan syntax int() pada format input(). Yang seharusnya ditulis adalah :
+
+a=int(input("Masukkan Nilai A : "))
+b=int(input("Masukkan Nilai B : "))
+
+Yang Benar Adalah
+
+a=int(input("Masukkan Nilai A : "))
+b=int(input("Masukkan Nilai B : "))
+print("Variable A : ",a)
+print("Variable B : ",b)
+print("Hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#Konversi nilai variable
+a=int(a)
+b=int(b)
+print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+
+![Gambar](Picture2/Gambar12.PNG)
