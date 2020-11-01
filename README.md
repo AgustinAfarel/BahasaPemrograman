@@ -209,3 +209,5 @@ Yang Benar Adalah
 <br>print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 
 ![Gambar](Picture2/Gambar12.PNG)
+
+SEKIAN DAN TERIMAKASIH
