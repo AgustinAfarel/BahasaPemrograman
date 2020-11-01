@@ -101,7 +101,9 @@ Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah -----
 print(w,x,y,z,sep="-----")
 
 Hasil dari syntax berikut 
-![Gambar]()
+![Gambar](Picture2/Gambar3.PNG)
+![Gambar](Picture2/Gambar4.PNG)
+
 
 * LAB 1-2
 
