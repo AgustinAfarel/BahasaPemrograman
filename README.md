@@ -146,7 +146,8 @@ Yang pertama (sebelah kiri) akan menampilkan angka Urut dari angka 0 hingga angk
 Dengan ketentuan sebagai berikut, operasi pangkat dengan angka kiri sebagai pokok (Rumus : ** [bintang dua] )
 Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10\
 
-![gambar](Picture2/Gambar9.PNG)
+![gambar](Picture2/Gambar15.PNG)
+![gambar](Picture/Gambar9.PNG)
 
 String Format 2
 Pada syntax atau source code string format 2 akan menampilkan output berupa 2 output'an juga (seperti String Format 1, yaitu kanan dan kiri)
