@@ -163,7 +163,7 @@ Secara Default, .format() menggunakan rata teks ke kiri, angka ke kanan. Kita da
 <br>print('{:<30}{:^30}{:>30}'.format('Kiri','Tengah','Kanan'))
 <br>print('{:<30}{:^30}{:>30}'.format(12,34,56))
 
-![gambar](Picture2/Gambar7.PNG)
+![gambar](Picture2/Gambar8.PNG)
 
 *LAB 2
 
